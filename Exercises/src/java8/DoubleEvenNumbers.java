@@ -2,6 +2,7 @@ package java8;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Given a list of numbers, creates a list that contains doubled values of all even numbers in the 
@@ -14,7 +15,8 @@ public class DoubleEvenNumbers {
 
 	static List<Integer> doubleEvenNumbers(List<Integer> input) {
 		// Implement using stream filter(), map(), and then collect(), using lambdas
-		throw new UnsupportedOperationException();
+//		throw new UnsupportedOperationException();
+		return input.stream().filter(i -> i % 2 == 0).map(i -> i *2).collect(Collectors.toList());
 	}
 	
 	public static void main(String[] args) {

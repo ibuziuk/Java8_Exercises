@@ -18,7 +18,9 @@ public class MultiplyBy10 {
 
 	static void replaceAll(List<Integer> list) {
 		// Implement using list.replaceAll and a lambda expression
-		throw new UnsupportedOperationException();
+		list.replaceAll(i -> i * 10);
+		list.replaceAll(Lambda::multiplyBy10);
+//		throw new UnsupportedOperationException();
 	}
 	public static void main(String[] args) {
 		final List<Integer> input = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6));

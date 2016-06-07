@@ -22,7 +22,9 @@ public class ConvertToLambda {
 				return o1.compareToIgnoreCase(o2);
 			}
 		});
-	}
+		Collections.sort(names, (i1, i2) -> i1.compareToIgnoreCase(i2));
+		Collections.sort(names, String::compareToIgnoreCase);
+	} 
 	
 	public static void main(String[] args) {
 		List<String> names = Arrays.asList("Bob", "Dave", "Charlie", "Alice");
