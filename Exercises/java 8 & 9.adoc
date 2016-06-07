@@ -1,0 +1,85 @@
+= Mastering Eclipse IDE - Tips & Tricks / Java 8 tooling & java 9 preview
+
+== Workspace Tricks
+
+*Window -> Preferences -> General -> Workspace -> Show workspace path / Worspace name*
+
+- Show Location
+
+- Working Sets / Dynamic working sets
+
+== Quick Access 
+
+*`Cntrl + O - outline`*
+
+== Blame
+
+*Team -> Show annotations*
+
+== Content Assist
+
+*Preferences -> Java -> Editor -> Content Assist*
+
+Block Selection button (Shift + Alt + A)
+
+== Split the Editor
+
+horizontal / vertical 
+
+`Chtrl + Shift + -`
+
+`Cntrl + Shift + {`
+
+== Debugging 
+
+*Cntrl + F5 / Cntrl + Alt Click*
+
+Conditional Breakpoints
+
+Exception Brekpoint (Add Java Exception Breakpoint)
+
+Conditional Breakpoint - Print Point 
+
+== Help -> Tips and Tricks
+
+== Java 8
+
+Interface methods (Default Methods - can have a body)
+
+- Colletions Library
+
+- Static Methods
+
+- Lambda Expressions (Functional Expressions) - Anonymys Methods
+
+Need a target type (Before anonymous classes)
+
+Functional Interface -> Single Abstract Method
+
+@FunctionalInterface
+
+Method References
+
+Integer::compare
+
+Lambda -> Convert to Lambda Expressions
+
+Stream API 
+
+Type Annotations
+
+`@NonNull List<@NonNull String> nonNullList;`
+
+== Java 9 (Project Jigsaw)
+
+- Modular JDK
+- Modular source code
+- Modular Run-Time
+- Unicode 7.0 and 8.0
+
+*Bussiness value* - light-weight JDK
+
+
+
+
+
